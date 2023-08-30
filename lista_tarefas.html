@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(https://img.freepik.com/fotos-premium/1-2-3-lista-de-tarefas-em-um-post-it-isolado-no-fundo-branco_433823-4.jpg?w=1380);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-position-y: -5px;
+        }
+        header div {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            font-family: sans-serif;
+            font-size: 30px;
+            color: white;
+            background-color: rgba(0, 0, 150, 0.8);
+            padding: 0px 0px 0px 30px;
+        }
+        table {
+            margin: 50px 0px 0px 500px;
+            border-collapse: collapse;
+            font-family: sans-serif;
+        }
+        table td, table th {
+            border: 1px solid #000;
+            padding: 50px;
+        }
+        table tr {
+            font-size: 20px;
+        }
+        table caption{
+            caption-side: bottom;
+            text-align: right;
+            font-style: italic;
+            font-size: 20px;
+            margin: 5px 0px;
+        }
+        table a{
+            text-decoration: none;
+            color: black;
+            
+        }
+        .sub{
+            padding: 15px 80px 0px 0px;
+            font-size: 30px;
+        }
+        header div a{
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+        }
+        .mouse:hover{
+            color: #E85716;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="principal">
+                Lista de tarefas
+            </h1>
+            <h1 class="sub">
+                Contato:
+                <a class="mouse" href="https://www.instagram.com/_thiago_venancio_/" target="_blank">Instagram</a>
+                <a>/</a>
+                <a class="mouse" href="mailto:thiagovenancio2005@gmail.com" target="_blank">Gmail</a>
+            </h1>
+
+        </div>
+    </header>
+    <hr>
+    <table>
+        <caption><a class="mouse" href="https://github.com/Tvg2005" target="_blank"> By Tvg2005</a></caption>
+
+        <thead style="font-size: 50px;">
+            <tr>
+                <th>Dia 30/08</th>
+                <th>Dia 31/08</th>
+                <th>Dia 01/09</th>
+                <th>Dia 02/09</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Exercicios Python</td>
+                <td>Fazer almoço</td>
+                <td>Assistir netflix</td>
+                <td>Aula online</td>
+            </tr>
+            <tr>
+                <td>Ir para faculdade</td>
+                <td>Estudar</td>
+                <td>Lavar carro</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <td>Beber agua</td>
+                <td>Anotar</td>
+                <td>Fazer prova</td>
+                <td>Academia</td>
+            </tr>
+            <tr>
+                <td>Exercicios Java</td>
+                <td>Ir para faculdade</td>
+                <td>Ler livro</td>
+                <td>Auto escola</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
